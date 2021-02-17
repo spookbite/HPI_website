@@ -11,7 +11,6 @@ section
 {
 	position: relative;
 	width: 100%;
-	min-height: 100vh;
 	padding: 100px;
 	display: flex;
 	justify-content: space-between;
@@ -56,3 +55,107 @@ header ul li a
 	margin-left: 40px;
 	text-decoration: none;
 }
+
+.heading
+{
+	margin-bottom: 8px;
+}
+
+.content_item div.info
+{
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+.site_content
+{
+	width: 1020px;
+ 	overflow: hidden;
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	background: #FFF;
+} 
+
+.content
+{
+	text-align: left;
+	width: 890px;
+	padding: 0;
+	margin-left: 20px;
+	float: left;
+	background: #FFF;
+}
+
+.content_item
+{
+	width: 940px;
+	margin: 0 0 20px 20px;
+	float: left;
+}
+
+.content_item h1
+{
+	background: #FFFFFF;
+	color: #000000;
+	padding-left: 5px;
+	width: 480px;
+	margin-left: 350px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.content_item h2
+{
+	background: #FFFFFF;
+	color: #000000;
+	padding-left: 5px;
+	width: 480px;
+	margin-left: 350px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+div.about
+{
+	height: 250px;
+}
+
+div.about div.pic
+{
+	float: left;
+}
+
+div.about div.bio
+{
+	float: right; 
+	width: 655px;
+	padding-right: 30px;
+}
+
+.footer
+{
+	font: normal 110% arial, sans-serif;
+	height: 45px;
+	padding: 30px 0 5px 0;
+	text-align: center;
+	border-top: 2px solid #44ACB0;
+}
+
+div.figure
+{
+	height: 400px;
+}
+
+div.figure div.figure_desc
+{
+	float: left;
+	width: 320px;
+	padding-top: 20px;
+}
+
+div.figure div.figure_image
+{
+	float: right;
+	padding-right: 30px;
+}
+

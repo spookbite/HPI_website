@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Graph from CSV</title>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./style.css">
 	</head>
 	<body>
 
@@ -18,18 +18,27 @@
 				</ul>
 			</header>
 
-			<div class="content">
-				<div class="textBox">
-					<h2>Economic Policy Uncertainty Index</h2>
-					<p>We develop indices of economic policy uncertainty for countries around the world.</p>
-				</div>
-				<!-- <ul>
-					<li><a href="#">tab 1</a></li>
-					<li><a href="#">tab 2</a></li>
-					<li><a href="#">tab 3</a></li>
-				</ul> -->
 
-				<iframe id="plots" src="refs/demo-login-disp-plots-with-tabs/03-29-2019.html" width="1000" height="1000"  frameborder="0"></iframe>
+			<div class="site_content">
+          		<div class="content">
+					<div class="content_item">
+						<div class="textBox">
+							<h2 class="heading">Economic Policy Uncertainty Index</h2>
+							<p class="info">We develop indices of economic policy uncertainty for countries around the world.</p>
+						</div>
+						<!-- <ul>
+							<li><a href="#">tab 1</a></li>
+							<li><a href="#">tab 2</a></li>
+							<li><a href="#">tab 3</a></li>
+						</ul> -->
+
+						<iframe id="plots" class="chartplot" src="refs/demo-login-disp-plots-with-tabs/03-29-2019.html" width="1000" height="1000"  frameborder="0"></iframe>	
+					</div>
+					<br style="clear:both;" />
+		            <div class ="footer">  
+		              <font size="2">&copy 2021 by Indian School of Business</font>
+		            </div><!--close footer-->
+				</div>
 			</div>
 		</section>
 
