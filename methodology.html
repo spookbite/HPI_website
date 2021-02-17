@@ -1,0 +1,67 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Graph from CSV</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="#"><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="methodology.html">Methodology</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </header>
+    </section>
+<div id="content">
+    <div class="content_item">
+      <h1>Methodology</h1>
+      <p>To measure policy-related economic uncertainty, we construct an index from three types of underlying components. One component quantifies newspaper coverage of policy-related economic uncertainty. A second component reflects the number of federal tax code provisions set to expire in future years. The third component uses disagreement among economic forecasters as a proxy for uncertainty.</p>
+      <p>The first component is an index of search results from 10 large newspapers. The newspapers included in our index are USA Today, the Miami Herald, the Chicago Tribune, the Washington Post, the Los Angeles Times, the Boston Globe, the San Francisco Chronicle, the Dallas Morning News, the New York Times, and the Wall Street Journal. From these papers, we construct a normalized index of the volume of news articles discussing economic policy uncertainty.</p>
+      <p>The second component of our index draws on reports by the Congressional Budget Office (CBO) that compile lists of temporary federal tax code provisions. We create annual dollar-weighted numbers of tax code provisions scheduled to expire over the next 10 years, giving a measure of the level of uncertainty regarding the path that the federal tax code will take in the future.</p>
+      <p>The third component of our policy-related uncertainty index draws on the Federal Reserve Bank of Philadelphia's Survey of Professional Forecasters. Here, we utilize the dispersion between individual forecasters' predictions about future levels of the Consumer Price Index, Federal Expenditures, and State and Local Expenditures to construct indices of uncertainty about policy-related macroeconomic variables.</p>
+      <p>More details about our methodology can be found in the paper: <a href="media/BakerBloomDavis.pdf">Paper and Figures</a></p>
+      <p></p>
+      <p></p>
+      <h1>Summary of Results</h1>
+      <div class="figure">
+        <div class="figure_desc">
+          <p>As measured by our index, we find that current levels of economic policy uncertainty are at extremely elevated levels compared to recent history.</p>
+          <p>Since 2008, economic policy uncertainty has averaged about twice the level of the previous 23 years.</p>
+        </div>
+        <div class="figure_image"> 
+          <img style="width: 532px; height: 339px;" src="images/main_index.png">
+        </div>
+      </div>
+      <div class="figure" style="height: 450px;">
+        <div class="figure_desc">
+          <p>A significant dynamic relationship exists between our economic policy uncertainty index and real macroeconomic variables.</p>
+          <p>We find that an increase in economic policy uncertainty as measured by our index foreshadows a decline in economic growth and employment in the following months.</p>
+        </div>
+        <div class="figure_image">
+          <img src="images/var.png" style="width: 532px; height: 429px;">
+        </div>
+      </div>
+      <div class="figure">
+        <div class="figure_desc">
+          <p>We find that the number of large movements in the S&amp;P 500 index, defined as a daily change of 2.5% or more, has increased dramatically in recent years relative to the average since 1980.</p>
+          <p>Moreover, since 2008, an increasingly large share of these large stock movements have been caused by policy-related events.</p>
+        </div>
+        <div class="figure_image">
+          <img style="width: 532px; height: 339px;" src="images/sp500.png">
+        </div>
+      </div>
+     </div><!--close content_item-->	
+<br style="clear:both;">
+<div id="footer">  
+  <h6>© 2021 by ISB</h6>
+</div><!--close footer-->
+</div>
+</body>
+</html>
