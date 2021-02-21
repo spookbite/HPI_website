@@ -7,7 +7,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-.top-head
+#top-head
 {
 	position: relative;
 	width: 100%;
@@ -17,17 +17,39 @@
 	align-items: center;
 	background: #fff;
 	font-size: 20px;
-	text-decoration: none;
-	padding-left: 20%;
+	padding-left: 15%;
+	font-family: gilroy;
+}
+
+#top-head ul
+{
+	position: relative;
+	display: flex;
+	margin-right: 20%;
+}
+
+#top-head ul li
+{
+	list-style: none;
+}
+
+#top-head ul li a
+{
+	display: inline-block;
+	color: #333;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration-color: #2378a6;
 }
 
 	
-.mid-nav{
+#mid-nav{
+	margin-top: 10%;
 	font-size: 40px;
-	color: rgb(146, 21, 21);
+	color: #2378a6;
 	text-align: center;
 }
-.top-head img{
+#top-head img{
 	align-items: center;
 }
 .nav-link{
@@ -39,7 +61,7 @@
 }	
 
 .card {
-	border-top: 5px solid rgb(92, 92, 192);
+	border-top: 5px solid #2378a6;
 	border-color:0px solid #fff ;
 	background-color: rgb(238, 238, 238);
 	align-items: center;
@@ -77,7 +99,8 @@
 .container{
 	margin-bottom: 20px;
 }
-header
+
+/*header
 {
 	position: absolute;
 	top: 0;
@@ -88,6 +111,7 @@ header
 	justify-content: space-between;
 	align-items: center;
 }
+
 header ul{
 	margin-right: 20%;
 }
@@ -117,7 +141,7 @@ header ul li a
 	margin-left: 40px;
 	text-decoration: none;
 }
-
+*/
 .heading
 {
 	margin-bottom: 8px;
@@ -171,8 +195,7 @@ header ul li a
 	background: #FFFFFF;
 	color: #000000;
 	padding-left: 5px;
-	width: 480px;
-	margin-left: 350px;
+	text-align: center;
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
@@ -226,14 +249,28 @@ div.figure div.figure_image
 	padding-bottom: none;
 }
 
-div.comingsoon {
+.comingsoon {
 	height: 20em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-div.comingsoon h1 {
+.comingsoon h1 {
 	margin: 0 
 	font-size: 100px;
+}
+
+@media (min-width: 700px)
+.navbar-expand-lg .navbar-collapse {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+
+@font-face {
+  font-family: gilroy;
+  src: url('./Gilroy-Bold.ttf');
 }
