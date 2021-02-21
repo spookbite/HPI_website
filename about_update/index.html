@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Economic Uncertainty Index</title>		
+		<link rel="stylesheet" href="./style.css">
+		<link rel="shortcut icon" href="logo.png" >
+	</head>
+	<body>
+
+		<section>
+			 <header class="top-head">
+      <a href="index.html"><img src="ISB20-website-logo.png" class="logo"></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="coming_soon.html">Methodology</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+
+    </header>
+
+
+			<div class="site_content">
+          		<div class="content">
+					<div class="content_item">
+						<div class="textBox">
+							<h2 class="heading">Economic Policy Uncertainty Index</h2>
+							<p class="info">We develop indices of economic policy uncertainty for countries around the world.</p>
+						</div>
+						<!-- <ul>
+							<li><a href="#">tab 1</a></li>
+							<li><a href="#">tab 2</a></li>
+							<li><a href="#">tab 3</a></li>
+						</ul> -->
+
+						<iframe id="plots" class="chartplot" src="refs/demo-login-disp-plots-with-tabs/03-29-2019.html" width="1000" height="1000"  frameborder="0"></iframe>	
+					</div>
+					<br style="clear:both;" />
+		            <!--close footer-->
+				</div>
+			</div>
+		</section>
+
+
+		<!-- <div style="width:800px;height:400px">
+			<canvas id="chart" width="800" height="400"></canvas>
+		</div>
+		<script>
+			const xlabels = [];
+			const ydata = [];
+			chartIt();
+
+			async function chartIt(){
+				await getData();
+				const ctx = document.getElementById('chart').getContext('2d');
+				const chart = new Chart(ctx, {
+				    // The type of chart we want to create
+				    type: 'line',
+				    responsive:true,
+
+				    // The data for our dataset
+				    data: {
+				        labels: xlabels,
+				        datasets: [{
+				            label: 'Economic Policy Uncertainty',
+				            fill: false,
+				            lineTension: 0.1,
+				            backgroundColor: 'rgb(255, 99, 132)',
+				            borderColor: 'rgb(255, 99, 132)',
+				            borderWidth: 1,
+				            data: ydata
+				        }]
+				    },
+
+				    // Configuration options go here
+				    options: {
+				        scales: {
+				            yAxes: [{
+				                ticks: {
+				                    // Include a dollar sign in the ticks
+				                    callback: function(value, index, values) {
+				                        return '$' + value;
+				                    }
+				                }
+				            }]
+				        },
+
+				        animation: {
+				        	duration : 1000,
+				        	easing : 'linear',
+				            onProgress: function(animation) {
+				                console.log(animation.animationObject.currentStep / animation.animationObject.numSteps);
+				            }
+				        },
+
+				        layout: {
+				            padding: {
+				                left: 50,
+				                right: 0,
+				                top: 0,
+				                bottom: 50
+				            }
+				        }
+				    }
+				});
+			}
+
+			async function getData() {
+				const response = await fetch('spanish-silver.csv');
+				const data = await response.text();
+
+				const table = data.split('\n').slice(1);
+				table.forEach(row => {
+					const columns = row.split(',');
+					const year = columns[0];
+					xlabels.push(year);
+					const silver = columns[2];
+					ydata.push(silver);
+					console.log(year,silver);
+				});
+			}
+		</script> -->
+		<div class ="footer">  
+		              <font size="2">&copy 2021 by Indian School of Business</font>
+		            </div>
+	</body>
+</html>

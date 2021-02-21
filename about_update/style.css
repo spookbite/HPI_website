@@ -1,0 +1,239 @@
+@import url('');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.top-head
+{
+	position: relative;
+	width: 100%;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 20%;
+}
+
+	
+.mid-nav{
+	font-size: 40px;
+	color: rgb(146, 21, 21);
+	text-align: center;
+}
+.top-head img{
+	align-items: center;
+}
+.nav-link{
+	font-size: 18px;
+}
+
+.nav-item{
+	padding-right: 8%;
+}	
+
+.card {
+	border-top: 5px solid rgb(92, 92, 192);
+	border-color:0px solid #fff ;
+	background-color: rgb(238, 238, 238);
+	align-items: center;
+	padding: 20px;
+	
+	
+	
+}
+#mainl{
+	margin-bottom: 6%;
+}
+#special{
+	
+	
+	align-items: center;
+}
+
+.card:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img{
+	border-radius: 50%;
+	
+	
+}
+.col{
+	margin-right: 20px;
+}
+#rowl{
+	padding: 0 10% 0 10%;
+}
+.card button{
+	background-color:rgb(92, 92, 192);
+}
+.container{
+	margin-bottom: 20px;
+}
+header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header ul{
+	margin-right: 20%;
+}
+
+header .logo
+{
+	position: relative;
+	max-width: 150px;	
+}
+
+header ul
+{
+	position: relative;
+	display: flex;
+}
+
+header ul li
+{
+	list-style: none;
+}
+
+header ul li a
+{
+	display: inline-block;
+	color: #333;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+.heading
+{
+	margin-bottom: 8px;
+}
+
+.content_item div.info
+{
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+.site_content
+{
+	width: 1020px;
+ 	overflow: hidden;
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	background: #FFF;
+} 
+
+.content
+{
+	text-align: left;
+	width: 890px;
+	padding: 0;
+	margin-left: 20px;
+	float: left;
+	background: #FFF;
+}
+
+.content_item
+{
+	width: 940px;
+	margin: 0 0 20px 20px;
+	float: left;
+}
+
+.content_item h1
+{
+	background: #FFFFFF;
+	color: #000000;
+	padding-left: 5px;
+	width: 480px;
+	margin-left: 350px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.content_item h2
+{
+	background: #FFFFFF;
+	color: #000000;
+	padding-left: 5px;
+	width: 480px;
+	margin-left: 350px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+div.about
+{
+	height: 250px;
+}
+
+div.about div.pic
+{
+	float: left;
+}
+
+div.about div.bio
+{
+	float: right; 
+	width: 655px;
+	padding-right: 30px;
+}
+
+.footer
+{
+	font: normal 110% arial, sans-serif;
+	
+	padding: 30px 0 5px 0;
+	text-align: center;
+	border-top: 2px solid #44ACB0;
+}
+
+div.figure
+{
+	height: 400px;
+}
+
+div.figure div.figure_desc
+{
+	float: left;
+	width: 320px;
+	padding-top: 20px;
+}
+
+div.figure div.figure_image
+{
+	float: right;
+	padding-right: 30px;
+}
+
+.chartplot
+{
+	padding-bottom: none;
+}
+
+div.comingsoon {
+	height: 20em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.comingsoon h1 {
+	margin: 0 
+	font-size: 100px;
+}

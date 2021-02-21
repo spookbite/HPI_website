@@ -159,3 +159,7 @@ div.figure div.figure_image
 	padding-right: 30px;
 }
 
+.chartplot
+{
+	padding-bottom: none;
+}
