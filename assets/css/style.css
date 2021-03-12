@@ -1597,6 +1597,22 @@ section {
   margin: 0 0 40px 0;
 }
 
+#footer .logos{
+  margin: 0 0 40px 0;
+}
+
+.columnlogo {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.logos::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #footer .social-links {
   margin: 0 0 40px 0;
 }
