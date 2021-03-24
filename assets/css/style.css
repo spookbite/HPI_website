@@ -1599,12 +1599,18 @@ section {
 
 #footer .logos{
   margin: 0 0 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: #696969;
+  max-height: 100%;
+  /*padding-left: */
 }
 
 .columnlogo {
-  float: left;
+  /*float: left;*/
   width: 50%;
   padding: 5px;
+  /*border: 0.1rem solid black;*/
 }
 
 .logos::after {
