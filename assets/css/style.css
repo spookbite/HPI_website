@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #header.header-scrolled {
-  background: #0164a7;
+  background: #238bd0;
 }
 
 #header .logo h1 {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 65px;
 }
 
 /*--------------------------------------------------------------
