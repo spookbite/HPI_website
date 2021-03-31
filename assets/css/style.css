@@ -1382,6 +1382,7 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  text-align: center;
 }
 
 .contact .info i {
@@ -1488,7 +1489,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ef6603;
+  background: #33364a;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1497,7 +1498,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #fc8129;
+  background: #33364a;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1671,7 +1672,7 @@ section {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 45%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 40%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
