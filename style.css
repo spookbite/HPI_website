@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: calc(100% - 20rem);
+  padding-top: calc(60% + 10rem);
 }
 
 
