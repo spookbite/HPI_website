@@ -15,3 +15,9 @@
   width: calc(100% - 2rem);
   height: calc(100% - 2rem);
 }
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
